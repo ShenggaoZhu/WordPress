@@ -1,0 +1,55 @@
+/*
+ Theme Name:   catch-box Child
+ Theme URI:    http://example.com/catch-box-child/
+ Description:  catch-box Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     catch-box
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  catch-box-child
+*/
+
+body {
+    margin-top: -32px !important;
+    margin-bottom: -32px !important;
+}
+
+#branding img {
+    height: auto;
+    max-width: 120px;
+    /* display: inline-block; */
+}
+
+#site-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+#header-content {
+    padding: 10px 0;
+}
+
+#hgroup {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#site-title a {
+    color: #02306D;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 55px;
+    text-align: center;
+}
+
+
+#site-description {
+    color: #02306D;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}

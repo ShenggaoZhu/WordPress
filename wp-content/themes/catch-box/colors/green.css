@@ -1,0 +1,86 @@
+/*
+	Green color scheme for Catch Box
+*/
+
+/* =Global
+----------------------------------------------- */
+
+body {
+	background-color: #a0c269;
+}
+#access ul.menu li,
+#access-secondary ul.menu li {
+    border-left: 1px solid #3e6107;
+}
+#access,
+#access-footer,
+#access ul.menu ul a {
+	background: #3e6107; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#53810a, #3e6107);
+	background: -o-linear-gradient(#53810a, #3e6107);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#53810a), to(#3e6107)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#53810a, #3e6107);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#53810a', endColorstr='#3e6107'); /* for IE */
+}
+#access ul.menu ul a {
+	color: #fff;
+}
+#access ul.menu li:hover > a,
+#access ul.menu a:focus,
+#access-secondary ul.menu li:hover > a,
+#access-secondary ul.menu a:focus,
+#access-footer ul.menu a:hover,
+#access-footer ul.menu a:focus {
+	background: #53810a; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#3e6107, #53810a);
+	background: -o-linear-gradient(#3e6107, #53810a);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3e6107), to(#53810a)); /* Older webkit syntax */
+	background: -webkit-linear-gradient(#3e6107, #53810a);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e6107', endColorstr='#53810a'); /* for IE */
+	color: #fff;
+}
+.mobile-menu-anchor a.genericon-menu:hover,
+.mobile-menu-anchor a.genericon-menu:focus {
+	background-color: #3e6107;
+	color: #fff;
+}
+#access-secondary {
+    background-color: #53810a;
+}
+#access-footer ul.menu li {
+    border-left: 1px solid #3e6107;	
+}
+#access-secondary ul.menu a {
+	color: #fff;
+    line-height: 2.6em;
+}
+#access,
+#access-footer {
+	border-bottom: 1px solid #3e6107;
+	margin-bottom: 0;
+}
+#content #infinite-handle span button {
+	background-color: #53810a;
+}
+#content #infinite-handle span button:hover,
+#content #infinite-handle span button:focus {
+	background-color: #3e6107;
+}
+
+/* Mobile Menu */
+.menu-access-wrap,
+.sidr {
+    background-color: #53810a;
+}
+.sidr ul,
+.sidr ul li {
+	border-color: #3e6107;
+}
+.sidr ul li a, 
+.sidr ul li span {
+    color: #eee;
+}
+.sidr ul li a:hover {
+	background-color: #3e6107;
+	color: #fff;
+}

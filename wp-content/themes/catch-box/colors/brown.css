@@ -1,0 +1,89 @@
+/*
+	Red color scheme for Catch Box
+*/
+
+/* =Global
+----------------------------------------------- */
+
+body {
+	background-color: #5e3929;
+}
+#access ul.menu li,
+#access-secondary ul.menu li {
+    border-left: 1px solid #4c2e21;
+}
+#access,
+#access-footer,
+#access ul.menu ul a {
+	background: #4c2e21; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#5e3929, #4c2e21);
+	background: -o-linear-gradient(#5e3929, #4c2e21);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5e3929), to(#4c2e21)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#5e3929, #4c2e21);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5e3929', endColorstr='#4c2e21'); /* for IE */
+}
+#access ul.menu ul a {
+	color: #fff;
+}
+#access ul.menu li:hover > a,
+#access ul.menu a:focus,
+#access-secondary ul.menu li:hover > a,
+#access-secondary ul.menu a:focus,
+#access-footer ul.menu a:hover,
+#access-footer ul.menu a:focus {
+	background: #5e3929; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#4c2e21, #5e3929);
+	background: -o-linear-gradient(#4c2e21, #5e3929);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4c2e21), to(#5e3929)); /* Older webkit syntax */
+	background: -webkit-linear-gradient(#4c2e21, #5e3929);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c2e21', endColorstr='#5e3929'); /* for IE */
+	color: #fff;
+}
+.mobile-menu-anchor a.genericon-menu:hover,
+.mobile-menu-anchor a.genericon-menu:focus {
+	background-color: #4c2e21;
+	color: #fff;
+}
+#access-secondary {
+    background-color: #593627;
+}
+#colophon #access-footer ul.menu li {
+    border-left: 1px solid #4c2e21;	
+}
+#access-secondary ul.menu a {
+    color: #fff;
+    line-height: 2.6em;
+}
+#access,
+#access-footer {
+	border-bottom: 1px solid #4c2e21;
+	margin-bottom: 0;
+}
+#content #infinite-handle span button {
+	background-color: #593627;
+}
+#content #infinite-handle span button:hover,
+#content #infinite-handle span button:focus {
+	background-color: #4c2e21;
+}
+#site-generator {
+	border-color: #4c2e21;
+}
+
+/* Mobile Menu */
+.menu-access-wrap,
+.sidr {
+    background-color: #5e3929;
+}
+.sidr ul,
+.sidr ul li {
+	border-color: #4c2e21;
+}
+.sidr ul li a, 
+.sidr ul li span {
+    color: #eee;
+}
+.sidr ul li a:hover {
+	background-color: #4c2e21;
+	color: #fff;
+}
